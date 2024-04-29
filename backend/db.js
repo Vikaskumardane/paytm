@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 
 //connecting the DB to the mongoose compus
-mongoose.connect();
+mongoose.connect(MONGO_URL);
 
 //creating the schema for users
 
