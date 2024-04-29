@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 
 //connecting the DB to the mongoose compus
-mongoose.connect('mongodb+srv://vikasdane:Vikasdane%400306@cluster0.tzq0bz3.mongodb.net/paytm');
+mongoose.connect();
 
 //creating the schema for users
 
